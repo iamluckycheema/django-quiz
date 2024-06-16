@@ -16,16 +16,16 @@ class CustomLoginView(LoginView):
     template_name = 'registration/login.html'
 
 class CustomLogoutView(LogoutView):
-    template_name = 'registration/logged_out.html'
+    template_name = 'registration/logged_out_template.html'
 
 class CustomPasswordResetView(PasswordResetView):
-    template_name = 'registration/password_reset_form.html'
+    template_name = 'registration/password_reset_form_template.html'
 
 class CustomPasswordResetDoneView(PasswordResetDoneView):
-    template_name = 'registration/password_reset_done.html'
+    template_name = 'registration/password_reset_done_template.html'
 
 class CustomPasswordResetConfirmView(PasswordResetConfirmView):
-    template_name = 'registration/password_reset_confirm.html'
+    template_name = 'registration/password_reset_confirm_template.html'
 
 class CustomPasswordResetCompleteView(PasswordResetCompleteView):
-    template_name = 'registration/password_reset_complete.html'
+    template_name = 'registration/password_reset_complete_template.html'
