@@ -1,0 +1,9 @@
+{% extends "./base.html" %} {% block contents %}
+<div class="container">
+  <h2>Password Reset Complete</h2>
+  <p class="message">
+    Your password has been successfully reset. You can now
+    <a href="{% url 'authentication:login' %}">log in</a> with the new password.
+  </p>
+</div>
+{% endblock %}
